@@ -1,12 +1,12 @@
-# revision 30531
+# revision 33145
 # category Package
 # catalog-ctan /macros/latex/contrib/scalerel
-# catalog-date 2013-05-17 19:01:50 +0200
+# catalog-date 2014-03-10 14:38:12 +0100
 # catalog-license lppl
-# catalog-version 1.5
+# catalog-version 1.6
 Name:		texlive-scalerel
-Version:	1.5
-Release:	5
+Version:	1.6
+Release:	1
 Summary:	Constrained scaling and stretching of objects
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/scalerel
