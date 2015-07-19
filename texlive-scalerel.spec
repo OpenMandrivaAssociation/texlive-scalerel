@@ -6,7 +6,7 @@
 # catalog-version 1.6
 Name:		texlive-scalerel
 Version:	1.6
-Release:	4
+Release:	5
 Summary:	Constrained scaling and stretching of objects
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/scalerel
