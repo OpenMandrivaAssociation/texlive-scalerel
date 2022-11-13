@@ -1,18 +1,12 @@
-# revision 33145
-# category Package
-# catalog-ctan /macros/latex/contrib/scalerel
-# catalog-date 2014-03-10 14:38:12 +0100
-# catalog-license lppl
-# catalog-version 1.6
 Name:		texlive-scalerel
-Version:	1.8
-Release:	2
+Version:	42809
+Release:	1
 Summary:	Constrained scaling and stretching of objects
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/scalerel
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scalerel.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scalerel.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scalerel.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scalerel.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -29,12 +23,12 @@ minimum aspect ratio, which are often used to preserve
 legibility or for the sake of general appearance.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -45,7 +39,7 @@ legibility or for the sake of general appearance.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
