@@ -1,6 +1,6 @@
 Name:		texlive-scalerel
 Version:	42809
-Release:	1
+Release:	2
 Summary:	Constrained scaling and stretching of objects
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/scalerel
